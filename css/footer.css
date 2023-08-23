@@ -35,8 +35,6 @@ body {
 }
 .footer-logo-icon {
   fill: #ffff;
-  width: 127px;
-  height: 16px;
   flex-shrink: 0;
 }
 
@@ -48,8 +46,6 @@ body {
 }
 .footer-social-svg {
   fill: #ffff;
-  width: 40px;
-  height: 40px;
 }
 .footer-svg-link {
   display: block;
@@ -147,8 +143,14 @@ body {
   }
 
   /*! ------------------LOGO-AND-SOCIAL ICON---------------- */
+
   .footer-svg {
     margin-bottom: 32px;
+  }
+
+  .footer-social-svg {
+    width: 40px;
+    height: 40px;
   }
 
   /*! ------------------FOOTER MENU---------------- */
@@ -158,6 +160,7 @@ body {
     top: 36px;
     right: 250px;
     margin-bottom: 0px;
+    padding: 8px 8px;
   }
   .footer-menu-list {
     gap: 16px;
@@ -205,12 +208,8 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .footer-social-svg {
-    width: 40px;
-    height: 40px;
-  }
   .footer-container {
-    max-width: 1440px;
+    max-width: 1376px;
     margin: 0 auto;
     position: relative;
   }
